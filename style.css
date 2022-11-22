@@ -588,7 +588,7 @@ background-color: var(--button--);
 
 
       .middle-nav{
-        position: fixed;
+        position:absolute;
         flex-direction: column;
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.941);
@@ -601,7 +601,7 @@ background-color: var(--button--);
         margin: 0 auto;
         translate:100% 0% ;
         transition: translate .9s;
-         z-index:90;
+        z-index:112;
 
       }
       
