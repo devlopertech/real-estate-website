@@ -601,6 +601,7 @@ background-color: var(--button--);
         margin: 0 auto;
         translate:100% 0% ;
         transition: translate .9s;
+         z-index:90;
 
       }
       
