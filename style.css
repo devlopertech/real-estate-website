@@ -590,7 +590,7 @@ background-color: var(--button--);
 
 
       .middle-nav{
-        position:absolute;
+        position:fixed;
         flex-direction: column;
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.941);
@@ -601,7 +601,7 @@ background-color: var(--button--);
         align-items: center;
         justify-content: space-evenly;
         margin: 0 auto;
-        translate:100% 0% ;
+        translate:1000% 0% ;
         transition: translate .9s;
         z-index:112;
 
