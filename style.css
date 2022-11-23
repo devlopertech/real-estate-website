@@ -287,6 +287,7 @@ body{
     align-items: center;
     justify-content: center;
     min-width: 400px;
+    z-index:100;
 
 }
 
@@ -303,8 +304,7 @@ body{
     margin-left: -10rem;
     margin-bottom: -10rem
     /* translate: -3rem 8.556667786781rem; */
-    z-index:60;
-    position:relative;
+    
 
 }
 
@@ -314,8 +314,7 @@ body{
 
 .solution-image{
     max-width: 76%;
-    z-index:59;
-    position:relative;
+    
     
 }
 
