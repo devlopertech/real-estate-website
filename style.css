@@ -304,6 +304,7 @@ body{
     margin-bottom: -10rem
     /* translate: -3rem 8.556667786781rem; */
     z-index:60;
+    position:relative;
 
 }
 
