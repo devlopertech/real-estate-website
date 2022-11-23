@@ -601,7 +601,7 @@ background-color: var(--button--);
         align-items: center;
         justify-content: space-evenly;
         margin: 0 auto;
-        translate:1000% 0% ;
+        transform:translateX(1000%);
         transition: translate .9s;
         z-index:112;
 
@@ -609,21 +609,21 @@ background-color: var(--button--);
       
       
       .toggle{
-        translate:0%;
+        transform:translateX(0%);
       }
 
       .bar-1{
-        rotate: 45deg;
+         transform:rotateX(45deg);
       }
 
       .bar-2{
         opacity:0;
         transition: opacity 0.4s;
-        translate:100%;
+        transform:translateX(100%);
       }
 
       .bar-3{
-        rotate: -45deg;
+        transform:rotateX(-45deg);
       }
        
 
